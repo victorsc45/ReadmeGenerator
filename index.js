@@ -24,6 +24,17 @@ async function init() {
 function promptUser() {
     return inquirer.prompt([
         {
+            type: "checkbox",
+            message: "What license does your project allow?",
+            name: "License",
+            choices: [
+                "ISC",
+                "MIT",
+                "BSD-3-Clause",
+                "Proprietary"
+            ]
+        },
+        {
             type: "input",
             name: "Title",
             message: "What is the title of your project?"
@@ -45,8 +56,25 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "Contributing",
-            message: "Please enter any contributors or Credited sites"
+            name: "Contributors",
+            message: "Who were the contributors on this project?",
+
+        },
+        {
+            type: "input",
+            name: "Username",
+            message: "What is your GitHub Username?",
+
+        },
+        {
+            type: "list",
+            message: "What is your preferred method of communication?",
+            name: "Contact",
+            choices: [
+                "email",
+                "phone",
+                "twitter"
+            ]
         },
         {
             type: "input",
@@ -54,27 +82,15 @@ function promptUser() {
             message: "Enter any test instructions now."
         },
         {
-            type: "checkbox",
-            message: "What license does your project allow?",
-            name: "License",
-            choices: [
-                "ISC",
-                "MIT",
-                "BSD-3-Clause",
-                "Proprietary"
-            ]
+
+            type: "input",
+            name: "credits",
+            message: "enter any url credits used in development of app separated by commas please."
         }
 
+
     ])
-    // if ( ${data.License} = "MIT"){
-    //     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT);
-    //   } else if ( ${data.License} = "ISC"){
-    //     [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-    //   } else if ( ${data.License} = "BSD-3-Clause"){
-    //     [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-    //   } else {
-    //     https://img.shields.io/github/license/Victorsc45/https://github.com/victorsc45/ReadmeGenerator
-    //   }
+
 
 }
 
