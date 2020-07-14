@@ -1,6 +1,25 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+const generateMarkdown = require("generateMarkdown");
+const writeFileAsync = util.promisify(fs.writeFile);
+// function call to initialize program
+init();
+// function to initialize program
+function init() {
+    console.log("hi")
+    try {
+        const answers = await promptUser();
+
+        const markDown = generateMarkdown(answers);
+
+        await writeFileAsync("README.MD", markDown);
+
+        console.log("Successfully wrote to README.MD");
+    } catch (err) {
+        console.log(err);
+    }
+}
 // array of questions for user
 function promptUser() {
     return inquirer.prompt([
@@ -36,18 +55,29 @@ function promptUser() {
         }
 
     ])
-    const questions = [
 
-    ];
+}
+
+
+    // .then(function (data) {
+    //     let fileName = "README.MD";
+        // writeFileAsync(fileName, JSON.stringify(data, null, '\t'), function (err) {
+        //     if (err) {
+        //         throw (err);
+
+        //     }
+    //         console.log("success writing to readme file");
+    //     })
+    // });
+    // const questions = [
+
+    // ];
 
     // function to write README file
-    function writeToFile(fileName, data) {
-    }
+    // function writeFileAsync(fileName, data) {
 
-    // function to initialize program
-    function init() {
+    // }
 
-    }
 
-    // function call to initialize program
-    init();
+
+
