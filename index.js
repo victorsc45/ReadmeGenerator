@@ -8,7 +8,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
 init();
 // function to initialize program
 async function init() {
-    console.log("hi")
+    console.log("welcome to the README.md file Generator");
     try {
         const answers = await promptUser();
 
@@ -68,14 +68,10 @@ function promptUser() {
 
         },
         {
-            type: "list",
+            type: "input",
             message: "What is your preferred method of communication?",
             name: "contact",
-            choices: [
-                "email",
-                "phone",
-                "twitter"
-            ]
+            default: "email",
 
         },
         {
@@ -88,11 +84,12 @@ function promptUser() {
             type: "input",
             name: "credits",
             message: "enter any url credits used in development of app separated by commas please."
-        }
+        },
 
 
     ])
 
+    console.log(data.choices);
 
 }
 
