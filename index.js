@@ -34,11 +34,12 @@ function promptUser() {
             message: "What license does your project allow?",
             name: "license",
             choices: [
-                "isc",
-                "mit",
-                "bsd-3-clause",
-                "afl-3.0"
+                "ISC",
+                "MIT",
+                "BSD3Clause",
+                " AFL3"
             ]
+
         },
         {
             type: "editor",
@@ -88,8 +89,14 @@ function promptUser() {
 
 
     ])
+    choices.forEach(element => {
 
-    console.log(data.choices);
+        ISC = "ISC-blue";
+        MIT = "MIT-yellow";
+        BSD3Clause = "BSD%203--Clause-blue";
+        AFL3 = "afl-3.0-pink";
+    });
+
 
 }
 

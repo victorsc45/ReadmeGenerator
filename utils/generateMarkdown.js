@@ -8,7 +8,7 @@ function generateMarkdown(data) {
 
    # Licence
   
-  >  [![License](https://img.shields.io/badge/License-${data.choices}-blue.svg)](https://opensource.org/licenses/${data.choices})
+  >  [![License](https://img.shields.io/badge/License-${data.choices}.svg)]
     
   ### :octocat:
   ### node js :package: 
