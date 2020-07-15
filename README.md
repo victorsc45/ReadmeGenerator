@@ -21,11 +21,11 @@
 
   ## **Usage**
 -    
-    *  CLI node js README file generator, within which the developer answers questions to create dynamically the README.md file for a repository project
+    * CLI node js README file generator, within which the developer answers questions to create dynamically the README.md file for a repository project
 
   ### **Contributors**
 -    
-    * UNC/Trilogy starter files and I was the developer.
+    * UNC/Trilogy provided starter files and I was the developer.
 
   ## **GitHub Information**
 -  
@@ -40,7 +40,7 @@
     * email 
 
   ## See screen shots below
-    > install node.js and use gitbash or terminal types to install node.js, fs, util, and inquirer. Then in command line run > node index.js
+    >  install node.js and use gitbash or terminal types to install node.js, fs, util, and inquirer. Then in command line run > node index.js
 
     <img src="./utils/screenshot.jpg" width="500px" >
     

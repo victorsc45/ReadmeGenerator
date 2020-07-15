@@ -39,7 +39,8 @@ function generateMarkdown(data) {
   
   ## *Contact me by*
   -
-    * ${data.contact} 
+    > *${data.contact}*
+    -> victorlitzau+github@gmail.com
 
   ## See screen shots below
     > ${data.tests}
