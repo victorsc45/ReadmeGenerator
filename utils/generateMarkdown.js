@@ -13,7 +13,7 @@ function generateMarkdown(data) {
     
   ### :octocat:
   ### node js :package: 
-  
+
   # Table of Contents
   <!-- toc -->
   * [Description](#description)
@@ -35,10 +35,11 @@ function generateMarkdown(data) {
 
   ## **Usage**
    
-    * ${data.usage}
+  * ${data.usage}
 
   ### **Contributors**   
-    * ${data.contributors}
+
+  * ${data.contributors}
 
   ## **GitHub Information**
  
@@ -46,14 +47,18 @@ function generateMarkdown(data) {
 
   Picture of Developer: 
 
-    <img src="https://avatars0.githubusercontent.com/u/20911070?s=400&u=5559b53c96fd67717f991289bcc85bbb64c57f97&v=4" width="250px" >
+  <img src="https://avatars0.githubusercontent.com/u/20911070?s=400&u=5559b53c96fd67717f991289bcc85bbb64c57f97&v=4" width="250px" >
   
   ## *Questions*
-    > questions or comments contact me:
-    > **${data.contact}**
-     **victorlitzau+github@gmail.com**
 
-  ## See screen shots below
+    > questions or comments contact me:
+
+    > ${data.contact}
+
+    victorlitzau+github@gmail.com
+
+  ## Test Example
+
     > ${data.tests}
 
     <img src="./utils/screenshot.jpg" width="500px" >
@@ -61,9 +66,6 @@ function generateMarkdown(data) {
   ### Credits
   
    * ${data.credits}
-
-      
-
 `;
 }
 

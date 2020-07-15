@@ -37,7 +37,7 @@ function promptUser() {
                 "ISC-blue",
                 "MIT-yellow",
                 "BSD%203--Clause-blue",
-                "afl-3.0-pink"
+                "Unlicense-green"
             ]
 
         },
