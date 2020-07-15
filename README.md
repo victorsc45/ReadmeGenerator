@@ -22,7 +22,7 @@
 
   ## **Usage**
 -    
-    * use it on terminal
+    * use in on CLI
 
   ### **Contributors**
 -    
@@ -42,13 +42,13 @@
     -> victorlitzau+github@gmail.com
 
   ## See screen shots below
-    > checkout the screenshot
+    > screenshots below
 
     <img src="./utils/screenshot.jpg" width="500px" >
     
   ### credited urls
   
-   * github.com victorlitzau+github@gmail.com @askBCS noahsywester
+   * askBCS @noahsylwester learning assistant :) www.https://npmjs.com/packages/inquirer www.https://guides/github.com/features/mastering-markdown/#examples
 
       
 

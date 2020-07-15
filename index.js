@@ -30,14 +30,14 @@ function promptUser() {
             message: "What is the title of your project?"
         },
         {
-            type: "checkbox",
+            type: "list",
             message: "What license does your project allow?",
             name: "license",
             choices: [
-                "ISC",
-                "MIT",
-                "BSD3Clause",
-                " AFL3"
+                "ISC-blue",
+                "MIT-yellow",
+                "BSD%203--Clause-blue",
+                "afl-3.0-pink"
             ]
 
         },
@@ -89,14 +89,6 @@ function promptUser() {
 
 
     ])
-    choices.forEach(element => {
-
-        ISC = "ISC-blue";
-        MIT = "MIT-yellow";
-        BSD3Clause = "BSD%203--Clause-blue";
-        AFL3 = "afl-3.0-pink";
-    });
-
 
 }
 
