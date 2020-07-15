@@ -7,7 +7,7 @@
 
    # Licence
   
-  >  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  >  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]
     
   ### :octocat:
   ### node js :package: 
@@ -37,7 +37,7 @@
 
   ### **Contributors**   
 
-  * UNC/Trilogy provided starter files and I was the developer.
+  *  UNC/Trilogy provided starter files and I was the developer.
 
   ## **GitHub Information**
  
@@ -49,10 +49,9 @@
   
   ## *Questions*
 
-    > questions or comments contact me:
+  > questions or comments contact me by email: 
 
-     email
-
+     
   ####  victorlitzau+github@gmail.com
 
   ## Test Example
@@ -61,9 +60,9 @@
    
 <img src="./utils/screenshot.jpg" width="500px" >
 
-    *Link to video for test demonstration
+   * Link to video for test demonstration
 
-
+https://drive.google.com/file/d/1rUZHHpgqWhH1ulRpuMnLxKdz-tA4BneW/view
     
   ### Credits
   
