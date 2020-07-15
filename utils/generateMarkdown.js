@@ -51,10 +51,9 @@ function generateMarkdown(data) {
   
   ## *Questions*
 
-    > questions or comments contact me:
+  > questions or comments contact me by ${data.contact}: 
 
-     ${data.contact}
-
+     
   ####  victorlitzau+github@gmail.com
 
   ## Test Example
@@ -63,9 +62,9 @@ function generateMarkdown(data) {
    
 <img src="./utils/screenshot.jpg" width="500px" >
 
-    *Link to video for test demonstration
+   * Link to video for test demonstration
 
-
+https://drive.google.com/file/d/1rUZHHpgqWhH1ulRpuMnLxKdz-tA4BneW/view
     
   ### Credits
   
