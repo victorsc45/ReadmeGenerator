@@ -84,7 +84,7 @@ function promptUser() {
 
             type: "input",
             name: "credits",
-            message: "enter any url credits used in development of app separated by commas please."
+            message: "enter any url credits used in development of app separated by a space please."
         },
 
 
