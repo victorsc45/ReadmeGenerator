@@ -1,7 +1,7 @@
 
    [![npm version](https://badgen.net/npm/v/inquirer-emoji)](https://www.npmjs.com/package/inquirer-emoji)
    <img src="https://badge.fury.io/js/inquirer.svg" alt="npm">
-  # README.md Generator for project repositories 
+  # README Generator for project repositories 
 
 
    # Licence
@@ -17,15 +17,15 @@
 
   ## **Installation**
 -    
-  *  Use node.js, fs, util, and inquirer installed to run this application on terminal CLI.  Use terminal window to call node js - node index.js - on the command line interface to generate questions to the user for their project readme file.
+  * Use node.js, fs, util, and inquirer installed to run this application on terminal CLI.  Use terminal window to call node js - node index.js - on the command line interface to generate questions to the user for their project readme file.
 
   ## **Usage**
 -    
-    * CLI node js README file generator, within which the developer answers questions to create dynamically the README.md file for a repository project
+    *  CLI node js README file generator, within which the developer answers questions to create dynamically the README.md file for a repository project
 
   ### **Contributors**
 -    
-    * UNC/Trilogy file starter provided and I am the develper: victorlitzau@gmail.com
+    * UNC/Trilogy starter files and I was the developer.
 
   ## **GitHub Information**
 -  
