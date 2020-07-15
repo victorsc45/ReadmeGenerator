@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
+const Choice = require("inquirer/lib/objects/choice");
 const writeFileAsync = util.promisify(fs.writeFile);
 // function call to initialize program
 init();
@@ -13,9 +14,9 @@ async function init() {
 
         const markDown = generateMarkdown(answers);
 
-        await writeFileAsync("README.MD", markDown);
+        await writeFileAsync("README.md", markDown);
 
-        console.log("Successfully wrote to README.MD");
+        console.log("Successfully wrote to README.md");
     } catch (err) {
         console.log(err);
     }
@@ -24,61 +25,62 @@ async function init() {
 function promptUser() {
     return inquirer.prompt([
         {
-            type: "checkbox",
-            message: "What license does your project allow?",
-            name: "License",
-            choices: [
-                "ISC",
-                "MIT",
-                "BSD-3-Clause",
-                "Proprietary"
-            ]
-        },
-        {
             type: "input",
-            name: "Title",
+            name: "title",
             message: "What is the title of your project?"
         },
         {
-            type: "input",
-            name: "Description",
+            type: "checkbox",
+            message: "What license does your project allow?",
+            name: "license",
+            choices: [
+                "isc",
+                "mit",
+                "bsd-3-clause",
+                "afl-3.0"
+            ]
+        },
+        {
+            type: "editor",
+            name: "description",
             message: "Please give a good description of your project?"
         },
         {
             type: "input",
-            name: "Installation",
+            name: "installation",
             message: "What are the installation instructions?"
         },
         {
             type: "input",
-            name: "Usage",
+            name: "usage",
             message: "Describe your developed app's usage?"
         },
         {
             type: "input",
-            name: "Contributors",
+            name: "contributors",
             message: "Who were the contributors on this project?",
 
         },
         {
             type: "input",
-            name: "Username",
+            name: "username",
             message: "What is your GitHub Username?",
 
         },
         {
             type: "list",
             message: "What is your preferred method of communication?",
-            name: "Contact",
+            name: "contact",
             choices: [
                 "email",
                 "phone",
                 "twitter"
             ]
+
         },
         {
             type: "input",
-            name: "Tests",
+            name: "tests",
             message: "Enter any test instructions now."
         },
         {
