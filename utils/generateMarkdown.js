@@ -12,7 +12,7 @@ function generateMarkdown(data) {
   >  
      * select the license badge to view licence aggreements:
 
-    [![License](https://img.shields.io/badge/License-${data.license}-violet.svg)](https://opensource.org/licenses/${data.license})
+    [![License](https://img.shields.io/badge/License-${data.license}-lime.svg)](https://opensource.org/licenses/${data.license})
     
   ### :octocat:
   ### node js :package: 
