@@ -2,7 +2,7 @@
    [![npm version](https://badgen.net/npm/v/inquirer-emoji)](https://www.npmjs.com/package/inquirer-emoji)
    <img src="https://badge.fury.io/js/inquirer.svg" alt="npm">
  
-   # README Generator for project repositories  
+   # README Generator for project repositories 
 
 
    # Licence
@@ -10,7 +10,8 @@
   >  
      * select the license badge to view licence aggreements:
 
-    [![License](https://img.shields.io/badge/License-MIT-lime.svg)](https://opensource.org/licenses/MIT)
+     
+[![License](https://img.shields.io/badge/License-0BSD-lime.svg)](https://opensource.org/licenses/0BSD)
     
   ### :octocat:
   ### node js :package: 
@@ -59,7 +60,7 @@
 
   ## Test Example
 
-   Install node.js and use gitbash or terminal types to install node.js, fs, util, and inquirer. Then in command line run > node index.js. Also see screen shot provided::
+   Install node.js and use gitbash or terminal types to install node.js, fs, util, and inquirer. Then in command line run > node index.js. Also see screen shot provided ::
    
 <img src="./utils/screenshot.jpg" width="500px" >
 
@@ -69,4 +70,4 @@ https://drive.google.com/file/d/1rUZHHpgqWhH1ulRpuMnLxKdz-tA4BneW/view
     
   ### Credits
   
-   * AskBCS @noahsylwester learning assistant :)  https://npmjs.com/package/inquirer#separator https://guides.github.com/features/mastering-markdown/#examples
+   *    AskBCS @noahsylwester learning assistant :)  https://npmjs.com/package/inquirer#separator https://guides.github.com/features/mastering-markdown/#examples
