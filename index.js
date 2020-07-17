@@ -34,10 +34,10 @@ function promptUser() {
             message: "What license does your project allow?",
             name: "license",
             choices: [
-                "ISC-blue",
-                "MIT-yellow",
-                "BSD%203--Clause-blue",
-                "Unlicense-green"
+                "ISC",
+                "MIT",
+                "0BSD",
+                "Unlicense",
             ]
 
         },
@@ -73,6 +73,12 @@ function promptUser() {
             message: "What is your preferred method of communication?",
             name: "contact",
             default: "email",
+
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Input your preferred email address?",
 
         },
         {

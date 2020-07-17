@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `
+   return `
    [![npm version](https://badgen.net/npm/v/inquirer-emoji)](https://www.npmjs.com/package/inquirer-emoji)
    <img src="https://badge.fury.io/js/inquirer.svg" alt="npm">
  
@@ -9,7 +9,10 @@ function generateMarkdown(data) {
 
    # Licence
   
-  >  [![License](https://img.shields.io/badge/License-${data.license}.svg)]
+  >  
+     * select the license badge to view licence aggreements:
+
+    [![License](https://img.shields.io/badge/License-${data.license}-violet.svg)](https://opensource.org/licenses/${data.license})
     
   ### :octocat:
   ### node js :package: 
@@ -51,10 +54,10 @@ function generateMarkdown(data) {
   
   ## *Questions*
 
-  > questions or comments contact me by ${data.contact}: 
+  > questions or comments contact me by ${data.contact} : 
 
      
-  ####  victorlitzau+github@gmail.com
+  ####  ${data.email}
 
   ## Test Example
 
