@@ -1,8 +1,9 @@
 
+   
    [![npm version](https://badgen.net/npm/v/inquirer-emoji)](https://www.npmjs.com/package/inquirer-emoji)
    <img src="https://badge.fury.io/js/inquirer.svg" alt="npm">
  
-   # README Generator for project repositories 
+   # Readme Generator for project repositories 
 
 
    # Licence
@@ -11,7 +12,7 @@
      * select the license badge to view licence aggreements:
 
      
-[![License](https://img.shields.io/badge/License-0BSD-lime.svg)](https://opensource.org/licenses/0BSD)
+[![License](https://img.shields.io/badge/License-MIT-lime.svg)](https://opensource.org/licenses/MIT)
     
   ### :octocat:
   ### node js :package: 
@@ -33,7 +34,7 @@
 
   ## **Installation**
     
-  * Use node.js, fs, util, and inquirer installed to run this application on terminal CLI.  Use terminal window to call node js - node index.js - on the command line interface to generate questions to the user for their project readme file.
+  * Use node.js, fs, util, and inquirer installed to run this application on terminal CLI. Use terminal window to call node js - node index.js - on the command line interface to generate questions to the user for their project readme file.
 
   ## **Usage**
    
@@ -49,7 +50,7 @@
 
   Picture of Developer: 
 
-  <img src="https://avatars0.githubusercontent.com/u/20911070?s=400&u=5559b53c96fd67717f991289bcc85bbb64c57f97&v=4" width="250px" >
+  <img src="https://avatars0.githubusercontent.com/victorsc45" width="250px" >
   
   ## *Questions*
 
@@ -60,7 +61,7 @@
 
   ## Test Example
 
-   Install node.js and use gitbash or terminal types to install node.js, fs, util, and inquirer. Then in command line run > node index.js. Also see screen shot provided ::
+   Install node.js and use gitbash or terminal types to install node.js, fs, util, and inquirer. Then in command line run > node index.js. Also see screen shot provided :::
    
 <img src="./utils/screenshot.jpg" width="500px" >
 
@@ -70,4 +71,4 @@ https://drive.google.com/file/d/1rUZHHpgqWhH1ulRpuMnLxKdz-tA4BneW/view
     
   ### Credits
   
-   *    AskBCS @noahsylwester learning assistant :)  https://npmjs.com/package/inquirer#separator https://guides.github.com/features/mastering-markdown/#examples
+   *  AskBCS @noahsylwester learning assistant :) https://npmjs.com/package/inquirer#separator https://guides.github.com/features/mastering-markdown/#examples
