@@ -1,6 +1,10 @@
 // function to generate markdown for README
+// npm badges and inquirer badges
+// Title, License, TOC, Description, Installation, Usage, Contributing...
+// GitHub information, Questions: contact by email, Testing and Credits sections created in markdown file
 function generateMarkdown(data) {
    return `
+   
    [![npm version](https://badgen.net/npm/v/inquirer-emoji)](https://www.npmjs.com/package/inquirer-emoji)
    <img src="https://badge.fury.io/js/inquirer.svg" alt="npm">
  
@@ -51,7 +55,7 @@ function generateMarkdown(data) {
 
   Picture of Developer: 
 
-  <img src="https://avatars0.githubusercontent.com/u/20911070?s=400&u=5559b53c96fd67717f991289bcc85bbb64c57f97&v=4" width="250px" >
+  <img src="https://avatars0.githubusercontent.com/${data.username}" width="250px" >
   
   ## *Questions*
 

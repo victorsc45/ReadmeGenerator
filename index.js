@@ -1,12 +1,23 @@
+// variables for required node js modules 
+
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+
+// variable for required markdown generator js module
+
 const generateMarkdown = require("./utils/generateMarkdown");
-const Choice = require("inquirer/lib/objects/choice");
+
+// using variable for async write file using util promise and fs node js module functionality
+
 const writeFileAsync = util.promisify(fs.writeFile);
+
 // function call to initialize program
+
 init();
+
 // function to initialize program
+
 async function init() {
     console.log("welcome to the README.md file Generator");
     try {
@@ -21,7 +32,9 @@ async function init() {
         console.log(err);
     }
 }
-// array of questions for user
+
+// array of questions for user using inquirer node module functionality
+
 function promptUser() {
     return inquirer.prompt([
         {
